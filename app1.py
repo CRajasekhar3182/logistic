@@ -16,7 +16,7 @@ def connect_to_db():
 # Streamlit app
 st.title("Heart Disease Prediction")
 
-# User input fields
+# User input fieldscd 
 age = st.number_input('Age', min_value=1, max_value=120)
 sex = st.selectbox('Sex (0: Female, 1: Male)', [0, 1])
 bp = st.number_input('Blood Pressure (bp)', min_value=80, max_value=200)
